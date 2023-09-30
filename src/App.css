@@ -1,0 +1,108 @@
+/* Import Google Fonts (example fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Set a common font family and background color for the entire site */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f0f0;
+}
+.particles-background {
+  position:relative;
+ 
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Place it behind other content */
+  background: linear-gradient(to bottom, #00042E, #000A51);
+}
+/* Navbar styles */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Main content container */
+.container {
+  padding: 20px;
+}
+
+/* Home page styles */
+.home {
+  text-align: center;
+}
+
+.home h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Card styles */
+.card {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+

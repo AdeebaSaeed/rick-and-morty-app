@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.location-info-container,
+.location-name-container,
+.location-filter-container {
+  text-align: center;
+  padding: 20px;
+  background-color: transparent;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.location-name-container h2 {
+  color: lawngreen;
+}
+
+
+.location-filter-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center; 
+}
+
+.location-filter-field {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  margin-top: 10px; 
+  text-align: center; 
+}
+
+.location-filter-field label {
+  font-size: 10px;
+  margin-right: 5px;
+  color: lawngreen;
+}
+
+
+#locationFilter {
+  width: 60%; 
+  height: 10px; 
+  padding: 10px;
+  border: 1px solid lawngreen;
+  border-radius: 4px;
+  background-color: rgb(2, 2, 82);
+  color: lawngreen;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+
+#locationFilter::after {
+  content: '▼'; 
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+
+@media (min-width: 768px) {
+  
+  .location-filter-field {
+    flex-direction: row; 
+  }
+
+  
+  .location-filter-field label {
+    font-size: 14px;
+  }
+
+  #locationFilter {
+    width: auto; 
+    height: 30px; 
+  }
+}
+
+
+.cardContainer {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.cardContainer img {
+  max-width: 100%;
+}
+
+.cardContent {
+  padding: 10px;
+}
+
+.cardTitle {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.cardStatus {
+  font-size: 14px;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.cardLocation {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+
+
+  

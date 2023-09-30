@@ -1,0 +1,23 @@
+
+
+.character-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .character-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .character-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  

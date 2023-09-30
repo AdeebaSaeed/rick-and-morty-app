@@ -1,0 +1,11 @@
+.button {
+	cursor: pointer;
+	font-size: 1.5rem;
+	min-height: 1.25rem;
+	padding-inline: 1.25rem;
+	padding-block: 0.75rem;
+}
+
+.button:disabled {
+	cursor: not-allowed;
+}

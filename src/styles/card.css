@@ -1,0 +1,49 @@
+/* Default styles for mobile devices */
+.cardContainer {
+    background-color: #fff;
+    border: 1px solid #0074e4; /* Blue border */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .cardImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; 
+  }
+  
+  .cardTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .cardLocation {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .locationLabel {
+    font-weight: bold;
+  }
+  
+  /* Media query for screens wider than 768px (tablets and larger) */
+  @media screen and (min-width: 768px) {
+    .cardsContainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .cardContainer {
+      width: calc(33.33% - 20px); /* 3 columns with some margin space in between */
+    }
+  }
+  
+  

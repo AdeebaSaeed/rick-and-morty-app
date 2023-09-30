@@ -1,0 +1,24 @@
+
+
+.error-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .no-character-found {
+    text-align: center;
+  }
+  
+  .no-character-found p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .no-character-found img {
+    max-width: 100%;
+    height: auto;
+  }
+  
