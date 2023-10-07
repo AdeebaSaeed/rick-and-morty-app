@@ -1,14 +1,15 @@
 import { useState, useEffect, useMemo } from 'react';
-import { Character, EpisodeType } from '../types/types'; // Import types as needed
+import { Character, EpisodeType } from '../types/types'; 
 import './Episodes.css';
+
 
 function Episode() {
   const [episodeData, setEpisodeData] = useState<EpisodeType | null>(null);
-  const [selectedEpisode, setSelectedEpisode] = useState<string>('1'); // Default to episode 1
+  const [selectedEpisode, setSelectedEpisode] = useState<string>('1'); 
   const [characters, setCharacters] = useState<Character[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  // Fetch episode data from the API based on selected episode
+
   useEffect(() => {
     setIsLoading(true);
 
@@ -49,7 +50,7 @@ function Episode() {
     }
   }
 
-  // Use useMemo to limit results to 20 characters
+ 
   const limitedCharacters = useMemo(() => characters.slice(0, 20), [characters]);
 
   return (

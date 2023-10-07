@@ -86,7 +86,7 @@ function Filter({ onFilterChange }: FilterProps) {
           <option value="cronenberg">Cronenberg</option>
         </select>
       </div>
-      <button className='reset-filter' onClick={resetFilters}>Reset Filter</button>
+      <button className='reset-button' onClick={resetFilters}>Reset Filter</button>
     </div>
   );
 }
