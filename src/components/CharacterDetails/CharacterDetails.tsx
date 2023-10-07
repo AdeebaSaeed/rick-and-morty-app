@@ -1,11 +1,12 @@
 import { useParams, Link } from 'react-router-dom';
-import { useFetch } from '../hooks/useFetch';
-import Loader from '../components/Loader/Loader';
+import { useFetch } from '../../hooks/useFetch';
+import Loader from '../Loader/Loader';
 import './CharacterDetails.css';
-import { Character } from '../types/types';
+import { Character } from '../../types/types';
 
 function CharacterDetails() {
   const { characterId } = useParams();
+  
   const { data: character, isLoading, error } = useFetch<Character>(
     `https://rickandmortyapi.com/api/character/${characterId}`
   );

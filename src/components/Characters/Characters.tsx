@@ -9,10 +9,12 @@ import FavoriteCharactersGallery from '../FavouriteCharacters/FavouriteCharacter
 import SearchForm from '../Search/SearchForm';
 import errorImage from '../../assets/images/errorImage.jpg';
 import Loader from '../Loader/Loader';
-import { useGlobalState } from '../Context/UseGlobalState'; 
+import { useGlobalState } from '../Context/UseGlobalState';
+
 
 function Characters() {
   const { pageNumber } = useParams();
+
   const navigate = useNavigate();
   const [characters, setCharacters] = useState<Character[]>([]);
   const [currentPage, setCurrentPage] = useState<number>(pageNumber ? parseInt(pageNumber) : 1);
@@ -93,6 +95,7 @@ function Characters() {
     navigate(`/characters/${currentPage}`);
   }, [currentPage, searchTerm, status, gender, species, navigate]);
   
+  
   function getStatusColor(status: string): string {
     switch (status) {
       case 'Dead':
@@ -162,14 +165,17 @@ function Characters() {
                       >
                         {favorites.some((fav) => fav.id === character.id) ? '❤️' : '🤍'}
                       </span>
-                      <Link to={`/characters/${character.id}`} className="cardImageLink">
+                      <Link to={`/characters/${character.id}`} className="cardImageLink" >
+                        
                         <img
                           className="cardImage"
                           src={character.image}
                           alt={character.name}
                         />
+                   
                       </Link>
-              
+      
+
                       <div className="cardContent">
                         <div className="cardTitle">{character.name}</div>
                         <div

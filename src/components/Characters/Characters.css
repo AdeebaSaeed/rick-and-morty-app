@@ -3,7 +3,7 @@
 * ,body {
 	margin: 0;
 	padding: 0;
-	
+	box-sizing: border-box;
   }
   
   body {
@@ -304,14 +304,14 @@
 	}
   
 	.filter-field {
-	  flex: 0 0 calc(50% - 10px); /* Adjust the width for 2 columns */
-	  margin-right: 10px; /* Add spacing between columns */
+	  flex: 0 0 calc(50% - 10px); 
+	  margin-right: 10px; 
 	}
   }
   
   @media screen and (min-width: 692px) {
 	.filter-field {
-	  flex: 0 0 calc(33.33% - 10px); /* Adjust the width for 3 columns */
-	  margin-right: 10px; /* Add spacing between columns */
+	  flex: 0 0 calc(33.33% - 10px); 
+	  margin-right: 10px; 
 	}
   }
