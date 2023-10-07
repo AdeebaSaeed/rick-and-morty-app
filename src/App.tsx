@@ -17,11 +17,8 @@ function App() {
       <Navbar />
 <Routes>
 <Route path="/" element={<Home />} />
-<<<<<<< HEAD
 <Route path="/home" element={<Home />} />
-=======
-  <Route path="/home" element={<Home />} />
->>>>>>> 485bcf07f3c05973147eaedf1b8adbfe334b9baa
+ <Route path="/home" element={<Home />} />
 <Route path="/characters" element={<Characters />} />
 <Route path="/characters/:pageNumber" element={<Characters />} />
 <Route path="/characters/:characterId" element={<CharacterDetails />} /> 
