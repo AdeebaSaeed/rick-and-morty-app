@@ -1,3 +1,5 @@
+# Rick and Morty App 
+https://rick-and-morty-web-world.netlify.app
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
