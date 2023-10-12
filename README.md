@@ -31,3 +31,10 @@ If you are developing a production application, we recommend updating the config
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+  ## Screenshots
+<img width="946" alt="Screenshot 2023-10-12 111812" src="https://github.com/AdeebaSaeed/rick-and-morty-app/assets/124208667/5f295a7c-40cb-474a-bfe2-d6dfe1fc265a">
+<img width="945" alt="Screenshot 2023-10-12 111932" src="https://github.com/AdeebaSaeed/rick-and-morty-app/assets/124208667/97378ad1-599e-43ac-81dc-e2df348746ce">
+
+
+
