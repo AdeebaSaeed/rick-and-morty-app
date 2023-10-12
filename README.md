@@ -35,6 +35,8 @@ If you are developing a production application, we recommend updating the config
   ## Screenshots
 <img width="946" alt="Screenshot 2023-10-12 111812" src="https://github.com/AdeebaSaeed/rick-and-morty-app/assets/124208667/5f295a7c-40cb-474a-bfe2-d6dfe1fc265a">
 <img width="945" alt="Screenshot 2023-10-12 111932" src="https://github.com/AdeebaSaeed/rick-and-morty-app/assets/124208667/97378ad1-599e-43ac-81dc-e2df348746ce">
+<img width="954" alt="Screenshot 2023-10-12 112252" src="https://github.com/AdeebaSaeed/rick-and-morty-app/assets/124208667/eeb0ffc9-2ae3-439e-a982-256114306098">
+
 
 
 
